@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "parcel-build": "parcel build index.html && cp _redirects ./dist/",
-    "serve": "parcel index.html",
-    "server:watch": "nodemon --watch ./server -e js ./server/index.js"
-  },
+    "test": "npx jasmine-node spec"
+ },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,6 +14,7 @@
     "eslint-config-prettier": "^6.5.0",
     "eslint-plugin-prettier": "^3.1.1",
     "html-literal": "^1.1.0",
+    "jasmine-node": "^3.0.0",
     "nodemon": "^2.0.13",
     "parcel-bundler": "^1.12.3",
     "prettier": "1.19.1",
